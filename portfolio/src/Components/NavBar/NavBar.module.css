@@ -1,0 +1,42 @@
+.nav {
+   display: flex;
+   margin: 0px auto;
+   width: 100%;
+   box-shadow: 0 8px 30px #7a7b8333;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+}
+
+.name {
+   display: flex;
+   justify-content: start;
+   width: 70%;
+   cursor: pointer;
+   letter-spacing: 1px;
+   margin-left: 2rem;
+}
+
+.container {
+   display: flex;
+   justify-content: end;
+   margin-right: 2rem;
+}
+
+.content {
+   width: 17vh;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   letter-spacing: 1px;
+}
+
+.contact {
+   background: #ffffff;
+   color: black;
+   text-align: center;
+   border-radius: 5px;
+   padding: 0.5rem 0.75rem;
+   font-weight: bolder;
+   letter-spacing: 0px;
+}
