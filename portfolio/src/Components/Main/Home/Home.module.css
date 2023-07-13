@@ -1,0 +1,62 @@
+.card_home {
+   width: 90%;
+   height: 490px;
+   margin: 0px auto;
+   border-radius: 20px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   box-shadow: 0 8px 30px #7a7b8333;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+}
+
+.home {
+   padding-top: 110px;
+}
+
+.social {
+   fill: #ffffff;
+}
+
+.profile {
+   width: 40%;
+   text-align: start;
+}
+
+.profile h4 {
+   margin: 0px;
+   font-weight: lighter;
+   letter-spacing: 1px;
+}
+
+.profile p {
+   font-weight: lighter;
+}
+
+.img {
+   width: 500px;
+}
+
+.miguel {
+   margin: 0px;
+   color: #ffa713;
+   font-size: 50px;
+   font-family: "Poppins", sans-serif;
+}
+.svgs {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   float: left;
+   margin: 3px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100%;
+   background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+}
+
+.svgs a {
+   padding-top: 4px;
+}

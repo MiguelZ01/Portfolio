@@ -1,0 +1,133 @@
+.contact {
+   width: 90%;
+   height: 690px;
+   margin: 30px auto;
+   border-radius: 20px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   box-shadow: 0 8px 30px #7a7b8333;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+}
+
+.img_contact {
+   width: 450px;
+}
+
+.card_contact {
+   width: 45%;
+   text-align: start;
+}
+
+.card_contact h1 {
+   font-family: "Poppins", sans-serif;
+   color: #ffa713;
+   font-size: 40px;
+}
+
+.card_contact h4 {
+   font-weight: lighter;
+   margin-bottom: 40px;
+}
+
+.inputs {
+   width: 100%;
+}
+
+.form {
+   width: 90%;
+   color: #474747;
+   height: 340px;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   padding: 40px;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+}
+
+.form label {
+   font-size: 20px;
+}
+
+.form input {
+   width: 90%;
+   height: 25px;
+   color: #ffffff;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: lighter;
+   padding: 5px 10px;
+   margin-bottom: 20px;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   background: linear-gradient(108.46deg, rgba(0, 0, 0, 0.144) 0%, rgba(66, 66, 66, 0.555) 100%);
+}
+
+.form textarea {
+   width: 90%;
+   height: 70px;
+   color: #ffffff;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: lighter;
+   padding: 5px 10px;
+   margin-bottom: 20px;
+   outline: none;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   background: linear-gradient(108.46deg, rgba(0, 0, 0, 0.144) 0%, rgba(66, 66, 66, 0.555) 100%);
+}
+
+.form input:-webkit-autofill,
+.form input:-webkit-autofill:focus {
+   transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.form button {
+   display: flex;
+   background-color: #ffffff;
+   border: none;
+   border-radius: 5px;
+   padding: 0.5rem 0.75rem;
+   font-weight: bolder;
+   cursor: pointer;
+   justify-content: end;
+}
+
+.svgs {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   float: left;
+   margin: 3px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100%;
+   background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+}
+
+.send {
+   width: 95%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.svgs a {
+   padding-top: 4px;
+   fill: #ffffff;
+}
+
+.success {
+   display: flex;
+   font-size: 20px;
+   justify-content: center;
+   padding: 0.5rem 0.75rem;
+   background: #38e54d;
+   border-radius: 5px;
+   color: #ffffff;
+}
