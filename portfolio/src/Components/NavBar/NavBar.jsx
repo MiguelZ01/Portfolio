@@ -35,10 +35,6 @@ const NavBar = () => {
                     </Link>
                 </div>
                 <div className={styles.content}>
-                    <Link to="experience" onClick={() => handleLinkClick("experience")}>
-                        <p>Experience</p>
-                    </Link>
-                </div><div className={styles.content}>
                     <Link to="contact" onClick={() => handleLinkClick("contact")}>
                         <p className={styles.contact}>Contact me</p>
                     </Link>
