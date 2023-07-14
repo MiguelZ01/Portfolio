@@ -57,3 +57,9 @@
    -webkit-transform: scale(0.9, 0.9);
    -moz-transform: scale(0.9, 0.9);
 }
+
+@media (max-width: 1140px) {
+   .img_about {
+      width: 350px;
+   }
+}

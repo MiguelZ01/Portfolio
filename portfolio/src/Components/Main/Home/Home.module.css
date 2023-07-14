@@ -66,3 +66,50 @@
    fill: #ffffff;
    padding-top: 4px;
 }
+
+@media (max-width: 1140px) {
+   .img {
+      width: 400px;
+   }
+
+   .profile {
+      width: 50%;
+   }
+}
+
+@media (max-width: 1000px) {
+   .card_home {
+      display: block;
+      padding-top: 20px;
+   }
+
+   .image_home {
+      margin: 0px auto;
+      width: 50%;
+   }
+
+   .img {
+      padding-top: 40px;
+      width: 350px;
+      margin: 0px auto;
+   }
+
+   .profile {
+      width: 90%;
+      margin: 0px auto;
+   }
+}
+
+@media (max-width: 773px) {
+   .img {
+      padding-top: 0px;
+      width: 350px;
+      margin: 0px auto;
+   }
+}
+
+@media (max-width: 596px) {
+   .home {
+      padding-top: 200px;
+   }
+}

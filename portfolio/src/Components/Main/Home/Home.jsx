@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Home.module.css'
 
 import About from '../About/About'
-import Portfolio from '../Portfolio/Portfolio'
+import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 import home from '../../../Assets/home.png'
 import NavBar from "../../NavBar/NavBar";
@@ -19,7 +19,7 @@ export const Home = () => {
                         <div className={styles.profile}>
                             <h1 className={styles.miguel}>Miguel Zuluaga</h1>
                             <p>Welcome to my portfolio!</p>
-                            <p>This portfolio is a reflection of my dedication and commitment. Here you will be able to explore my different projects, where I have demonstrated my ability to tackle challenges.</p>
+                            <p>This portfolio is a reflection of my dedication and commitment. Here you can see my ability to face challenges.</p>
                             <p>See my social networks →</p>
 
                             <div>
@@ -57,7 +57,7 @@ export const Home = () => {
                 </div>
                 <div className={styles.position} >
                     <div id='portfolio'>
-                        <Portfolio />
+                        <Projects />
                     </div>
                 </div>
 

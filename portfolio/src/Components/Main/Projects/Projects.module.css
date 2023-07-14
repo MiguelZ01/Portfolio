@@ -43,6 +43,7 @@
 .card_portfolio a:hover {
    color: #ffa713;
 }
+
 .portfolio h1 {
    font-family: "Poppins", sans-serif;
    color: #ffa713;
@@ -75,4 +76,17 @@
 .active a {
    background-color: #ffa713;
    color: #fff;
+}
+
+@media (max-width: 1140px) {
+   .img_portfolio {
+      width: 500px;
+   }
+}
+
+@media (max-width: 1000px) {
+   .img_portfolio {
+      width: 400px;
+      height: 250px;
+   }
 }

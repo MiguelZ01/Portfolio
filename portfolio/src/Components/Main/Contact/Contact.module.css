@@ -159,3 +159,26 @@
    border-radius: 5px;
    color: #8df76a;
 }
+
+@media (max-width: 1140px) {
+   .form {
+      width: 80%;
+   }
+
+   .img_contact {
+      width: 400px;
+      height: 400px;
+   }
+}
+
+@media (max-width: 1000px) {
+   .form {
+      width: 80%;
+   }
+
+   .img_contact {
+      width: 350px;
+      height: 350px;
+      margin-right: 30px;
+   }
+}

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
-import styles from './Portfolio.module.css';
+import styles from './Projects.module.css';
 import projects from '../../../Assets/projects.json';
 
-export const Portfolio = () => {
+export const Projects = () => {
     const [currentPage, setCurrentPage] = useState(0);
     const projectsPerPage = 1;
 
@@ -19,7 +19,7 @@ export const Portfolio = () => {
 
     return (
         <div className={styles.portfolio}>
-            <h1>Portfolio</h1>
+            <h1>Projects</h1>
 
             {displayedProjects.map((project) => (
                 <div key={project.id} className={styles.project}>
@@ -52,4 +52,4 @@ export const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default Projects;
