@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Videogames APP",
+    "image": "https://i.ibb.co/K07MFxs/2.jpg",
+    "description": "Application using the RAWG API. Explore a vast collection of video games, learn details about your favorite titles and discover new gems from the world of video games.",
+    "tech": "React, Redux, JavaScript, Express, Sequelize, PostgreSQL",
+    "link": "https://github.com/MiguelZ01/PI_Videogames",
+    "web": "https://videogames-alpha.vercel.app"
+  },
+    {
+      "name": "Codecommunity",
+      "image": "https://i.ibb.co/W0VdGmX/codecommunity.png",
+      "description": "An app designed specifically for the software development community, this platform offers a unique way to make connections, share knowledge and collaborate on projects.",
+      "tech": "React, Redux-toolkit, JavaScript, Bootstrap, Django, Python, PostgreSQL",
+      "link": "https://github.com/Sorsant/CodeCommunity",
+      "web": "https://code-community-three.vercel.app"
+    },
+    {
+      "name": "Rick and Morty",
+      "image": "https://i.ibb.co/rfjzMLr/imagen-2023-07-13-130229452.png",
+      "description": "Discover the exciting universe of Rick and Morty with this application, powered by an API dedicated to this acclaimed animated series. Immerse yourself in a huge catalog of characters.",
+      "tech": "React, Redux, JavaScript, Express, Sequelize, PostgreSQL",
+      "link": "https://github.com/MiguelZ01/Rick_And_Morty",
+      "web": "https://github.com/MiguelZ01/Rick_And_Morty"
+    },
+    {
+      "name": "Portfolio",
+      "image": "https://i.ibb.co/2s0kLP5/imagen-2023-07-13-130415940.png",
+      "description": "Explore my web portfolio and discover a sample of my creative work and technical skills. Through an intuitive interface, I invite you to dive into a collection of projects that reflect my passion for web development and design.",
+      "tech": "JavaScript, React",
+      "link": "https://github.com/MiguelZ01/Portfolio",
+      "web": "https://github.com/MiguelZ01/Portfolio"
+    }
+  ]

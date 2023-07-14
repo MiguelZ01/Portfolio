@@ -7,9 +7,14 @@ export const About = () => {
         <div className={styles.about}>
             <div className={styles.card_about}>
                 <h1>About me</h1>
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus aut vitae, enim provident minima neque facilis maiores fugiat, dolorem nihil accusantium iste quam aperiam tempora totam quae. Quaerat, eius ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quis error cumque praesentium minima sed pariatur debitis magni repellat? Nisi,
+                <h4>Full Stack Web Developer passionate about creating digital experiences. With a background in industrial logistics, a great experience about life in the field, designing and implementing web applications, I am constantly looking for new challenges to improve my skills and deliver quality results.</h4>
+                <h4>I have acquired knowledge in programming languages such as HTML, CSS, JavaScript and Python as well as in frameworks and technologies such as React, Node.js and databases such as PostgreSQL. In addition, I have learned about agile methodologies, which has helped me to know that I have the ability to face new challenges and experiences in the workplace.</h4>
 
-                    aliquid! Itaque similique est veritatis porro deserunt amet minima unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ducimus voluptatibus dolore nostrum exercitationem perferendis nam veniam quisquam quam velit, aliquid amet reprehenderit eius alias beatae ab. Harum, id iusto?</h4>
+                <a href="https://drive.google.com/file/d/1gQTxO2UhiELDZyuGlmuzoSqHHG2ux55OA4Wv2qov880/view?usp=drive_link" target='_blank' className={styles.button_about_link}>
+                    <button className={styles.button_about}>
+                        Know my CV
+                    </button>
+                </a>
             </div>
             <div className={styles.image_about}>
                 <img className={styles.img_about} src={about} alt="About me" />

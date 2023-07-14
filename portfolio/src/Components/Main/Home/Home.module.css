@@ -13,11 +13,7 @@
 }
 
 .home {
-   padding-top: 110px;
-}
-
-.social {
-   fill: #ffffff;
+   padding-top: 100px;
 }
 
 .profile {
@@ -55,8 +51,18 @@
    align-items: center;
    border-radius: 100%;
    background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+   transition: 0.5s, color 0.1s;
+   -webkit-transition: 0.5s, color 0.1s;
+   -moz-transition: 0.5s, color 0.1s;
+}
+
+.svgs:hover {
+   transform: scale(1.2, 1);
+   -webkit-transform: scale(0.9, 0.9);
+   -moz-transform: scale(0.9, 0.9);
 }
 
 .svgs a {
+   fill: #ffffff;
    padding-top: 4px;
 }

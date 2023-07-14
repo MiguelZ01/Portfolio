@@ -12,8 +12,17 @@
    background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
 }
 
+.image_contact {
+   height: 100%;
+   display: flex;
+   align-items: flex-end;
+   padding-bottom: 50px;
+}
+
 .img_contact {
    width: 450px;
+   height: 450px;
+   display: flex;
 }
 
 .card_contact {
@@ -39,14 +48,15 @@
 .form {
    width: 90%;
    color: #474747;
-   height: 340px;
+   height: 360px;
    border-radius: 20px;
+   margin-bottom: 30px;
    display: flex;
+   box-shadow: 0 8px 30px #7a7b8333;
    align-items: center;
    padding: 40px;
    -webkit-backdrop-filter: blur(10px);
    backdrop-filter: blur(10px);
-   background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
 }
 
 .form label {
@@ -91,11 +101,20 @@
    display: flex;
    background-color: #ffffff;
    border: none;
-   border-radius: 5px;
+   border-radius: 4px;
    padding: 0.5rem 0.75rem;
    font-weight: bolder;
    cursor: pointer;
    justify-content: end;
+   transition: 0.5s, color 0.1s;
+   -webkit-transition: 0.5s, color 0.1s;
+   -moz-transition: 0.5s, color 0.1s;
+}
+
+.form button:hover {
+   transform: scale(1.2, 1);
+   -webkit-transform: scale(0.9, 0.9);
+   -moz-transform: scale(0.9, 0.9);
 }
 
 .svgs {
@@ -108,6 +127,15 @@
    align-items: center;
    border-radius: 100%;
    background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+   transition: 0.5s, color 0.1s;
+   -webkit-transition: 0.5s, color 0.1s;
+   -moz-transition: 0.5s, color 0.1s;
+}
+
+.svgs:hover {
+   transform: scale(1.2, 1);
+   -webkit-transform: scale(0.9, 0.9);
+   -moz-transform: scale(0.9, 0.9);
 }
 
 .send {
@@ -125,9 +153,9 @@
 .success {
    display: flex;
    font-size: 20px;
+   height: 20px;
+   align-items: center;
    justify-content: center;
-   padding: 0.5rem 0.75rem;
-   background: #38e54d;
    border-radius: 5px;
-   color: #ffffff;
+   color: #8df76a;
 }

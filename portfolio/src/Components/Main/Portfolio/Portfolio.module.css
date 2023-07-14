@@ -3,31 +3,76 @@
    height: 490px;
    margin: 0px auto;
    margin-top: 30px;
+   padding-top: 20px;
+   padding-bottom: 30px;
    border-radius: 20px;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
    box-shadow: 0 8px 30px #7a7b8333;
    -webkit-backdrop-filter: blur(10px);
    backdrop-filter: blur(10px);
    background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
 }
 
-.img_about {
-   width: 400px;
+.project {
+   font-weight: lighter;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
 }
 
-.card_about {
-   width: 50%;
+.img_portfolio {
+   width: 600px;
+   height: 300px;
+   margin-right: 40px;
+}
+
+.card_portfolio {
    text-align: start;
+   width: 35%;
 }
 
-.card_about h1 {
+.card_portfolio a {
+   display: block;
+   margin-top: 10px;
+   text-decoration: none;
+   font-weight: bolder;
+   transform: all 5s;
+   color: #ffffff;
+   transition: 0.5s;
+}
+
+.card_portfolio a:hover {
+   color: #ffa713;
+}
+.portfolio h1 {
    font-family: "Poppins", sans-serif;
    color: #ffa713;
    font-size: 40px;
 }
 
-.card_about h4 {
-   font-weight: lighter;
+.paginate {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   padding-inline-start: 0px;
+   cursor: pointer;
+}
+
+.paginate a {
+   color: #ffffff;
+   text-decoration: none;
+   padding: 5px 10px;
+   margin: 5px;
+   margin-bottom: 20px;
+   background-color: #817f7f;
+   border-radius: 5px;
+}
+
+.paginate a:hover {
+   background-color: #ccc;
+}
+
+.active a {
+   background-color: #ffa713;
+   color: #fff;
 }

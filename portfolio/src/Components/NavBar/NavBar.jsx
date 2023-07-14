@@ -23,6 +23,7 @@ const NavBar = () => {
                     <h1>Miguel Zuluaga</h1>
                 </Link>
             </div>
+            <div className={styles.separator}></div>
             <div className={styles.container}>
                 <div className={styles.content}>
                     <Link to="about" onClick={() => handleLinkClick("about")}>
