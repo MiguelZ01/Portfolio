@@ -113,4 +113,8 @@
       display: block;
       height: 650px;
    }
+
+   .img_about {
+      width: 200px;
+   }
 }
