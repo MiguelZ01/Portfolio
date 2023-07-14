@@ -64,7 +64,7 @@
    }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1023px) {
    .img_about {
       width: 300px;
    }
@@ -74,7 +74,7 @@
    }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 773px) {
    .img_about {
       width: 250px;
    }
@@ -97,7 +97,7 @@
    }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 596px) {
    .about {
       display: block;
       height: 660px;
@@ -108,7 +108,7 @@
    }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
    .about {
       display: block;
       height: 650px;

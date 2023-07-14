@@ -8,7 +8,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-   width: 0px;
+   width: 6px;
    background: #1e1e1e;
 }
 
@@ -28,6 +28,8 @@ body::-webkit-scrollbar-thumb {
       overflow-x: hidden !important;
    }
 
-   ::-webkit-scrollbar {
+   body::-webkit-scrollbar {
+      width: 0px;
+      background: #1e1e1e;
    }
 }

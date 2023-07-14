@@ -13,6 +13,7 @@ const NavBar = () => {
         scroller.scrollTo(target, {
             duration: 1800,
             smooth: "easeInOutQuint",
+            offset: -100
         });
     };
 
@@ -31,12 +32,12 @@ const NavBar = () => {
                     </Link>
                 </div>
                 <div className={styles.content}>
-                    <Link to="portfolio" onClick={() => handleLinkClick("portfolio")}>
-                        <p>Portfolio</p>
+                    <Link to="portfolio" offset={-90} onClick={() => handleLinkClick("portfolio")} >
+                        <p>Projects</p>
                     </Link>
                 </div>
                 <div className={styles.content}>
-                    <Link to="contact" onClick={() => handleLinkClick("contact")}>
+                    <Link to="contact" offset={-90} onClick={() => handleLinkClick("contact")} >
                         <p className={styles.contact}>Contact me</p>
                     </Link>
                 </div>

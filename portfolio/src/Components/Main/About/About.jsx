@@ -4,7 +4,7 @@ import about from '../../../Assets/about.png'
 
 export const About = () => {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} >
             <div className={styles.card_about}>
                 <h1>About me</h1>
                 <h4>Desarrollador Web Full Stack apasionado por la creación de experiencias digitales. Con formación en logística industrial, una gran experiencia sobre la vida en el campo, estoy constantemente buscando nuevos retos para mejorar mis habilidades y ofrecer resultados de calidad.</h4>
@@ -16,7 +16,7 @@ export const About = () => {
                     </button>
                 </a>
             </div>
-            <div className={styles.image_about}>
+            <div className={styles.image_about} >
                 <img className={styles.img_about} src={about} alt="About me" />
             </div>
         </div>

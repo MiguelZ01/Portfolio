@@ -81,7 +81,7 @@
    }
 }
 
-@media (max-width: 985px) {
+@media (max-width: 1023px) {
    .container {
       width: 40%;
    }
@@ -95,7 +95,7 @@
    }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 773px) {
    .container {
       width: 50%;
    }
@@ -117,40 +117,21 @@
    }
 
    .name {
-      width: 40%;
+      width: 100%;
       margin: 0px auto;
+      display: contents;
    }
 
    .container {
-      width: 85%;
+      width: 80%;
       padding: 0;
    }
 }
 
-@media (max-width: 536px) {
-   .nav {
-      display: block;
-      margin: 0px auto;
-   }
-
-   .separator {
-      width: 0%;
-   }
-
+@media (max-width: 430px) {
    .name {
-      display: block;
       width: 55%;
-      margin: 0px auto;
-   }
-
-   .container {
-      width: 90%;
-   }
-}
-
-@media (max-width: 395px) {
-   .name {
-      width: 70%;
+      font-size: 14px;
       margin: 0px auto;
    }
 

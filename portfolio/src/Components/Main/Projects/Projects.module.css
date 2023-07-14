@@ -84,9 +84,60 @@
    }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1023px) {
    .img_portfolio {
       width: 400px;
       height: 250px;
+   }
+}
+
+@media (max-width: 834px) {
+   .img_portfolio {
+      width: 350px;
+      height: 250px;
+   }
+
+   .paginate {
+      padding-top: 20px;
+   }
+}
+
+@media (max-width: 773px) {
+   .img_portfolio {
+      margin-right: 0;
+      width: 450px;
+      height: 250px;
+   }
+
+   .portfolio {
+      height: 650px;
+   }
+
+   .project {
+      display: block;
+   }
+
+   .card_portfolio {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      width: 90%;
+   }
+
+   .paginate {
+      padding-top: 20px;
+   }
+}
+
+@media (max-width: 596px) {
+   .img_portfolio {
+      width: 350px;
+   }
+}
+
+@media (max-width: 430px) {
+   .img_portfolio {
+      width: 300px;
+      height: 200px;
    }
 }
