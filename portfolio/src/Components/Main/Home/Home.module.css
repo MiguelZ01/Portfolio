@@ -109,7 +109,38 @@
 }
 
 @media (max-width: 596px) {
+   .miguel {
+      font-size: 40px;
+   }
+
    .home {
       padding-top: 200px;
+   }
+
+   .img {
+      padding-top: 50px;
+      width: 270px;
+      margin: 0px auto;
+   }
+}
+
+@media (max-width: 410px) {
+   .miguel {
+      font-size: 35px;
+   }
+
+   .home {
+      padding-top: 200px;
+   }
+
+   .image_home {
+      margin: 0px auto;
+      width: 60%;
+   }
+
+   .img {
+      padding-top: 50px;
+      width: 270px;
+      margin: 0px auto;
    }
 }
