@@ -122,7 +122,8 @@
    }
 
    .container {
-      width: 100%;
+      width: 85%;
+      padding: 0;
    }
 }
 
@@ -138,20 +139,12 @@
 
    .name {
       display: block;
-      width: 50%;
+      width: 55%;
       margin: 0px auto;
    }
 
    .container {
-      width: 100%;
-      padding: 0 1rem;
-   }
-}
-
-@media (max-width: 536px) {
-   .name {
-      width: 55%;
-      margin: 0px auto;
+      width: 90%;
    }
 }
 
@@ -160,7 +153,14 @@
       width: 70%;
       margin: 0px auto;
    }
+
    .container {
-      padding-right: 40px;
+      width: 100%;
+      margin-left: 0px;
+   }
+
+   .content {
+      width: 30%;
+      padding-left: 1rem;
    }
 }

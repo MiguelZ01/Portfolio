@@ -8,7 +8,7 @@ export const About = () => {
             <div className={styles.card_about}>
                 <h1>About me</h1>
                 <h4>Full Stack Web Developer passionate about creating digital experiences. With a background in industrial logistics, a great experience about life in the field, designing and implementing web applications, I am constantly looking for new challenges to improve my skills and deliver quality results.</h4>
-                <h4>I have acquired knowledge in programming languages such as HTML, CSS, JavaScript and Python as well as in frameworks and technologies such as React, Node.js and databases such as PostgreSQL. In addition, I have learned about agile methodologies, which has helped me to know that I have the ability to face new challenges and experiences in the workplace.</h4>
+                <h4>I have acquired knowledge in languages such as HTML, CSS, JavaScript and Python as well as in technologies such as React, Node.js and databases such as PostgreSQL. In addition, I have learned about agile methodologies, which has helped me to know that I have the ability to face new challenges in the workplace.</h4>
 
                 <a href="https://drive.google.com/file/d/1pTG-qVpqKlRBQwN7NhcFtHSq9Rs3RaA4/view?usp=sharing" target='_blank' className={styles.button_about_link}>
                     <button className={styles.button_about}>
