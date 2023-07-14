@@ -10,7 +10,7 @@ export const About = () => {
                 <h4>Full Stack Web Developer passionate about creating digital experiences. With a background in industrial logistics, a great experience about life in the field, designing and implementing web applications, I am constantly looking for new challenges to improve my skills and deliver quality results.</h4>
                 <h4>I have acquired knowledge in programming languages such as HTML, CSS, JavaScript and Python as well as in frameworks and technologies such as React, Node.js and databases such as PostgreSQL. In addition, I have learned about agile methodologies, which has helped me to know that I have the ability to face new challenges and experiences in the workplace.</h4>
 
-                <a href="https://drive.google.com/file/d/1gQTxO2UhiELDZyuGlmuzoSqHHG2ux55OA4Wv2qov880/view?usp=drive_link" target='_blank' className={styles.button_about_link}>
+                <a href="https://drive.google.com/file/d/1Dlm-fJbzwB8FuyvhyGQX6GxsXJZkOcgd/view?usp=sharing" target='_blank' className={styles.button_about_link}>
                     <button className={styles.button_about}>
                         Know my CV
                     </button>
