@@ -132,6 +132,7 @@
 @media (max-width: 596px) {
    .img_portfolio {
       width: 350px;
+      height: 200px;
    }
 }
 

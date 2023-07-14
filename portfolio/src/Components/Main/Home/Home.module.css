@@ -81,6 +81,7 @@
    .card_home {
       display: block;
       padding-top: 20px;
+      height: 500px;
    }
 
    .image_home {
