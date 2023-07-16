@@ -30,7 +30,11 @@ export const Projects = () => {
                         <h2>{project.name}</h2>
                         <p>{project.description}</p>
                         <p>{project.tech}</p>
-                        <a href={project.link} target='_blank'>Repository</a>
+                        <a href={project.link} target='_blank'>
+                            <button className={styles.button_projects}>
+                                Repository
+                            </button>
+                        </a>
                         {/* <a href={project.web} target='_blank'>Web Site</a> */}
                     </div>
                 </div>

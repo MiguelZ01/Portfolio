@@ -112,10 +112,6 @@
       height: 150px;
    }
 
-   .separator {
-      width: 0%;
-   }
-
    .name {
       width: 100%;
       margin: 0px auto;
@@ -124,6 +120,13 @@
 
    .container {
       width: 80%;
+      padding: 0;
+   }
+}
+
+@media (max-width: 500px) {
+   .container {
+      width: 85%;
       padding: 0;
    }
 }

@@ -117,7 +117,7 @@
    -moz-transform: scale(0.9, 0.9);
 }
 
-.svgs {
+.svg {
    width: 40px;
    height: 40px;
    display: flex;
@@ -132,7 +132,7 @@
    -moz-transition: 0.5s, color 0.1s;
 }
 
-.svgs:hover {
+.svg:hover {
    transform: scale(1.2, 1);
    -webkit-transform: scale(0.9, 0.9);
    -moz-transform: scale(0.9, 0.9);
@@ -145,7 +145,7 @@
    align-items: center;
 }
 
-.svgs a {
+.svg a {
    padding-top: 4px;
    fill: #ffffff;
 }
@@ -174,28 +174,33 @@
 @media (max-width: 1023px) {
    .contact {
       display: block;
-      height: 670px;
       padding-top: 20px;
-   }
-
-   .form {
-      width: 80%;
    }
 
    .card_contact {
       width: 90%;
       margin: 0 auto;
-      text-align: center;
    }
 
    .form {
       margin: 0 auto;
       display: flex;
-      height: 300px;
-      width: 80%;
+      height: 350px;
+      width: 76%;
+   }
+
+   .image_contact {
+      height: 0;
    }
 
    .img_contact {
       display: none;
+   }
+
+   .svgs {
+      margin-left: 20px;
+      width: 60%;
+      display: flex;
+      justify-content: end;
    }
 }
