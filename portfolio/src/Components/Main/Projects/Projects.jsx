@@ -19,7 +19,7 @@ export const Projects = () => {
 
     return (
         <div className={styles.portfolio}>
-            <h1>Projects</h1>
+            <h1>Proyectos</h1>
 
             {displayedProjects.map((project) => (
                 <div key={project.id} className={styles.project}>
@@ -32,7 +32,7 @@ export const Projects = () => {
                         <p>{project.tech}</p>
                         <a href={project.link} target='_blank'>
                             <button className={styles.button_projects}>
-                                Repository
+                                Repositorio
                             </button>
                         </a>
                         {/* <a href={project.web} target='_blank'>Web Site</a> */}

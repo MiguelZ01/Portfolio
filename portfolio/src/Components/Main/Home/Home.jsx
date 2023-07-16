@@ -18,9 +18,9 @@ export const Home = () => {
                     <div className={styles.card_home}>
                         <div className={styles.profile}>
                             <h1 className={styles.miguel}>Miguel Zuluaga</h1>
-                            <p>Welcome to my portfolio!</p>
-                            <p>This portfolio is a reflection of my dedication and commitment. Here you will be able to explore my different projects, where I have demonstrated my ability to tackle challenges.</p>
-                            <p>See my social networks →</p>
+                            <p>¡Bienvenido a mi portafolio!</p>
+                            <p>Este portfolio es un reflejo de mi dedicación y compromiso. Aquí podrás explorar mis diferentes proyectos, donde he demostrado mi capacidad para afrontar retos.</p>
+                            <p>Ver mis redes sociales →</p>
 
                             <div>
                                 <div className={styles.svgs}>

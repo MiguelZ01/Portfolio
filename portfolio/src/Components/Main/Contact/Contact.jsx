@@ -34,16 +34,16 @@ const Contact = () => {
     return (
         <div className={styles.contact}>
             <div className={styles.card_contact}>
-                <h1>Contact me</h1>
+                <h1>Contacto</h1>
                 <h4>
-                    Thank you for visiting my portfolio and showing interest in my work as a Full Stack Web Developer. I am excited to connect with you and explore possible collaboration opportunities, you can do so through my email <strong>jesusmigu3lzr2004@gmail.com</strong>.
+                    Gracias por visitar mi portafolio y mostrar interés en mi trabajo como Full Stack Web Developer. Estoy encantado de conectar contigo y explorar posibles oportunidades de colaboración, puedes hacerlo a través de mi email <strong>jesusmigu3lzr2004@gmail.com</strong>.
                 </h4>
 
                 <div className={styles.form}>
                     <div className={styles.inputs}>
 
                         <form onSubmit={handleSubmit}>
-                            <label htmlFor="name">Name</label>
+                            <label htmlFor="name">Nombre</label>
                             <br />
                             <input type="text" id="name" value={name} onChange={(event) => setName(event.target.value)} required />
                             <br />
@@ -53,14 +53,14 @@ const Contact = () => {
                             <input type="email" id="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
                             <br />
 
-                            <label htmlFor="message">Message</label>
+                            <label htmlFor="message">Mensaje</label>
                             <br />
                             <textarea id="message" value={message} onChange={(event) => setMessage(event.target.value)} required></textarea>
                             <br />
 
                             <div className={styles.send}>
                                 <div>
-                                    <button type="submit">Send email</button>
+                                    <button type="submit">Enviar</button>
                                 </div>
                                 <div className={styles.svgs}>
                                     <div className={styles.svg}>
@@ -88,7 +88,7 @@ const Contact = () => {
                             </div>
                             {isSubmitted && (
                                 <div>
-                                    <p className={styles.success}>Mail has been sent successfully.</p>
+                                    <p className={styles.success}>El mensaje se ha enviado correctamente.</p>
                                 </div>
                             )}
                         </form>

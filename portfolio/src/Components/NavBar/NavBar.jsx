@@ -28,17 +28,17 @@ const NavBar = () => {
             <div className={styles.container}>
                 <div className={styles.content}>
                     <Link to="about" onClick={() => handleLinkClick("about")}>
-                        <p>About me</p>
+                        <p>Sobre mí</p>
                     </Link>
                 </div>
                 <div className={styles.content}>
                     <Link to="portfolio" offset={-90} onClick={() => handleLinkClick("portfolio")} >
-                        <p>Projects</p>
+                        <p>Proyectos</p>
                     </Link>
                 </div>
                 <div className={styles.content}>
                     <Link to="contact" offset={-90} onClick={() => handleLinkClick("contact")} >
-                        <p className={styles.contact}>Contact me</p>
+                        <p className={styles.contact}>Contacto</p>
                     </Link>
                 </div>
             </div>
