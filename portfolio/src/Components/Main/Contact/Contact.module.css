@@ -117,7 +117,7 @@
    -moz-transform: scale(0.9, 0.9);
 }
 
-.svg {
+.svgs {
    width: 40px;
    height: 40px;
    display: flex;
@@ -132,7 +132,7 @@
    -moz-transition: 0.5s, color 0.1s;
 }
 
-.svg:hover {
+.svgs:hover {
    transform: scale(1.2, 1);
    -webkit-transform: scale(0.9, 0.9);
    -moz-transform: scale(0.9, 0.9);
@@ -145,7 +145,7 @@
    align-items: center;
 }
 
-.svg a {
+.container_svgs a {
    padding-top: 4px;
    fill: #ffffff;
 }
@@ -195,12 +195,5 @@
 
    .img_contact {
       display: none;
-   }
-
-   .svgs {
-      margin-left: 20px;
-      width: 60%;
-      display: flex;
-      justify-content: end;
    }
 }

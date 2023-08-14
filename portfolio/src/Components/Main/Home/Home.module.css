@@ -62,7 +62,7 @@
    -moz-transform: scale(0.9, 0.9);
 }
 
-.svgs a {
+.container_svgs a {
    fill: #ffffff;
    padding-top: 4px;
 }
